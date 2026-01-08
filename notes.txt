@@ -1,0 +1,49 @@
+npm i fontawesome
+
+
+npm i axios
+
+Query Parameters:
+A query in api refers to sending a request to an api 
+to retrieve filter or manipulate data,often using parametrs 
+to specifywhat is needed.these queries can be performed via a URL
+
+stripe:
+Core principle:
+Frontend never handles money.backend always documnets
+
+react/fe:collects card details(via stripe)
+node/be:creates payment intent and confirms paymenst
+
+step1:
+create an account in stripe
+->Publishable key(fronetend key)
+ used to identify which stripe account the eq belongs to
+
+ intilise stripe elements(ui)
+ 
+ collect card details securely
+
+
+->secret key(backend key)
+
+  intialse paymenst
+  capture paymenst
+  issue refuns
+  etc
+
+
+Payment flow_
+    1.Load stripe UI-Publishable
+    2.Enter card details:Publishable
+    3.Intialize Payment:secret
+    4.Confirm payment-both
+
+Stripe---get card detials show ui--payment details
+
+payment sucess
+
+server should know book bought-- api
+
+Context Api-
+used to pass global varibles anywhere in the code without the prop drilling.it helsp when there is a need for sharing state betweeen a lot of nested components
