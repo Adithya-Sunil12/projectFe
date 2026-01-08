@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import AdminHeader from '../components/AdminHeader'
-import AdminSidebar from '../components/AdminSidebar'
+import AdminSideBar from '../components/AdminSideBar'
 import { getAllJobApplications } from '../../../services/allApi'
 import { toast } from 'react-toastify'
 import { BaseUrl } from '../../../services/baseUrl'
@@ -33,7 +33,7 @@ setApplicationData(apiResponse.data.allApplications)
       <AdminHeader/>
       <div className='grid grid-cols-[2fr_5fr]'>
 
-        <AdminSidebar/>
+        <AdminSideBar/>
         <div>
             <h1 className='text-center text-2xl font-bold'> Job Applications</h1>
         {

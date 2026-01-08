@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import AdminHeader from '../components/AdminHeader'
-import AdminSidebar from '../components/AdminSidebar'
+import AdminSideBar from '../components/AdminSideBar'
 import { toastTheme } from 'flowbite-react'
 import { getAllBooks, getAllJobs, getAllUsers } from '../../../services/allApi'
 
@@ -64,7 +64,7 @@ const getUserCount=async()=>{
     <>
     <AdminHeader/>
     <div className='grid grid-cols-[2fr_5fr]'>
-        <AdminSidebar/>
+        <AdminSideBar/>
         <div>
          <div className='flex justify-between mx-10 mt-5'>
           <div style={box} className='border bg-blue-600 rounded-2xl'>

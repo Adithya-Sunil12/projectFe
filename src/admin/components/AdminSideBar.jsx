@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const AdminSidebar = () => {
+const AdminSideBar = () => {
   return (
     <div style={{minHeight:'100vh'}} className='bg-gray-400 h-100'>
       <h1 className='font-bold text-center text-2xl p-5'>Admin Dashboard <FontAwesomeIcon icon={faDashboard}/></h1>
@@ -24,4 +24,4 @@ const AdminSidebar = () => {
   )
 }
 
-export default AdminSidebar
+export default AdminSideBar

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import AdminHeader from "../components/AdminHeader";
-import AdminSidebar from "../components/AdminSidebar";
+import AdminSideBar from "../components/AdminSideBar";
 import { toast } from "react-toastify";
 import { addJob, deleteJob, getAllJobs } from "../../../services/allApi";
 
@@ -84,7 +84,7 @@ const AdminCareers = () => {
     <>
       <AdminHeader />
       <div className="grid grid-cols-[2fr_5fr]">
-        <AdminSidebar />
+        <AdminSideBar />
 
         <div>
           <button

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import AdminHeader from "../components/AdminHeader";
-import AdminSidebar from "../components/AdminSidebar";
+import AdminSideBar from "../components/AdminSideBar";
 import { toast } from "react-toastify";
 import { updateProfile } from "../../../services/allApi";
 
@@ -70,7 +70,7 @@ const AdminSettings = () => {
     <>
       <AdminHeader />
       <div className="grid grid-cols-[2fr_5fr]">
-        <AdminSidebar />
+        <AdminSideBar />
         <div>
           <h1 className="text-center text-3xl"> Settings</h1>
           <div className="grid grid-cols-2 gap-10">
